@@ -7,35 +7,11 @@ export default function Experience() {
     return endDate ? `${startDate} ~ ${endDate}` : `${startDate} ~ 재직중`
   }
 
-  const TableRow = ({ children }: { children: React.ReactNode }) => (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        borderBottom: '1px solid #3f3f46',
-      }}
-    >
-      {children}
-    </div>
-  )
-
   const TableRow3 = ({ children }: { children: React.ReactNode }) => (
     <div
       style={{
         display: 'grid',
         gridTemplateColumns: '1fr 1fr 2fr',
-        borderBottom: '1px solid #3f3f46',
-      }}
-    >
-      {children}
-    </div>
-  )
-
-  const TableRow4 = ({ children }: { children: React.ReactNode }) => (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr 1.5fr 2fr',
         borderBottom: '1px solid #3f3f46',
       }}
     >
@@ -63,37 +39,6 @@ export default function Experience() {
       }}
     >
       {children}
-    </div>
-  )
-
-  const TableHeader = ({ left, right }: { left: string; right: string }) => (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        backgroundColor: '#3f3f46',
-        borderBottom: '1px solid #3f3f46',
-      }}
-    >
-      <div
-        style={{
-          padding: '1rem',
-          fontWeight: 600,
-          color: '#fafafa',
-          borderRight: '1px solid #3f3f46',
-        }}
-      >
-        {left}
-      </div>
-      <div
-        style={{
-          padding: '1rem',
-          fontWeight: 600,
-          color: '#fafafa',
-        }}
-      >
-        {right}
-      </div>
     </div>
   )
 
@@ -145,67 +90,6 @@ export default function Experience() {
         }}
       >
         {col3}
-      </div>
-    </div>
-  )
-
-  const TableHeader4 = ({
-    col1,
-    col2,
-    col3,
-    col4,
-  }: {
-    col1: string
-    col2: string
-    col3: string
-    col4: string
-  }) => (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr 1.5fr 2fr',
-        backgroundColor: '#3f3f46',
-        borderBottom: '1px solid #3f3f46',
-      }}
-    >
-      <div
-        style={{
-          padding: '1rem',
-          fontWeight: 600,
-          color: '#fafafa',
-          borderRight: '1px solid #3f3f46',
-        }}
-      >
-        {col1}
-      </div>
-      <div
-        style={{
-          padding: '1rem',
-          fontWeight: 600,
-          color: '#fafafa',
-          borderRight: '1px solid #3f3f46',
-        }}
-      >
-        {col2}
-      </div>
-      <div
-        style={{
-          padding: '1rem',
-          fontWeight: 600,
-          color: '#fafafa',
-          borderRight: '1px solid #3f3f46',
-        }}
-      >
-        {col3}
-      </div>
-      <div
-        style={{
-          padding: '1rem',
-          fontWeight: 600,
-          color: '#fafafa',
-        }}
-      >
-        {col4}
       </div>
     </div>
   )

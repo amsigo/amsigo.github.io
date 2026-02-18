@@ -131,8 +131,7 @@ export default function ProjectDetail() {
                     margin: '1rem 0',
                     display: 'block',
                   }}
-                  onError={(e) => {
-                    // 이미지 로드 실패 시 처리
+                  onError={() => {
                     console.error('이미지 로드 실패:', imageSrc)
                   }}
                 />
