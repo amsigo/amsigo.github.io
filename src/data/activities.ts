@@ -19,7 +19,6 @@ export const activitySections: ActivitySection[] = [
     items: [
       '29회 Appjam 해커톤 게임 부문 개발 심사위원 참여',
       '27회 Appjam 해커톤 게임 부문 개발 심사위원 참여',
-      '26회 Appjam 해커톤 게임 부문 개발 심사위원 참여',
       'Stac2023 엔터테인먼트 서류평가 심사위원 참여',
     ],
   },

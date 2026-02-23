@@ -3,7 +3,7 @@ import tapmon_icon from '@/assets/icon/tapmon_icon.png'
 import tapmonDescription from '../descriptions/tapmon.md?raw'
 
 export const tapmon: Project = {
-  id: '6',
+  id: '106',
   title: '텝몬',
   shortDescription: '클리커',
   description: tapmonDescription,

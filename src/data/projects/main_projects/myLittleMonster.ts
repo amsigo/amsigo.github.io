@@ -3,7 +3,7 @@ import my_little_monster_icon from '@/assets/icon/my_Little_Monster_icon.png'
 import myLittleMonsterDescription from '../descriptions/myLittleMonster.md?raw'
 
 export const myLittleMonster: Project = {
-  id: '3',
+  id: '103',
   title: '마이 리틀 몬스터',
   shortDescription: '롤플레잉',
   description: myLittleMonsterDescription,

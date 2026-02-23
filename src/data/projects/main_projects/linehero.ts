@@ -3,7 +3,7 @@ import linehero_icon from '@/assets/icon/linehero_icon.png'
 import lineheroDescription from '../descriptions/linehero.md?raw'
 
 export const linehero: Project = {
-  id: '5',
+  id: '105',
   title: '라인 히어로즈',
   shortDescription: '롤플레잉',
   description: lineheroDescription,

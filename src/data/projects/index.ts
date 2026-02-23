@@ -15,26 +15,28 @@ import { whiteout } from './copy_projects/whiteout'
 import { megicaDefense } from './copy_projects/megicaDefense'
 import { ifland_optimize } from './etc_projects/ifland_optimize'
 import { ifland_auto } from './etc_projects/ifland_auto'
+import { andar } from './etc_projects/andar'
 
 // 모든 프로젝트를 배열로 export
 export const projects = [
-  ifland,
-  rebirth,
-  myLittleMonster,
-  birdshot,
-  linehero,
-  tapmon,
-  castle,
-  shotup,
+  ifland, // 101
+  rebirth, // 102
+  myLittleMonster, // 103
+  birdshot, // 104
+  linehero, // 105
+  tapmon, // 106
+  castle, // 107
+  shotup, // 108
 ]
 
 export const copyProjects = [
-  burgerplease,
-  whiteout,
-  megicaDefense,
+  burgerplease, // 201
+  whiteout, // 202 
+  megicaDefense, // 203
 ]
 
 export const etcPorjects = [
-  ifland_optimize,
-  ifland_auto,
+  ifland_optimize, // 301
+  ifland_auto, // 302
+  andar, // 303
 ]

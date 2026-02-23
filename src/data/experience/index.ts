@@ -8,7 +8,23 @@ export const experiences: Experience[] = [
     id: '1',
     startDate: '2022.05',
     company: '(주)모프인터랙티브',
-    duty: '게임 클라이언트 개발',
+    duty: `[ifland 게이미피케이션 아이템 개발]
+    - 유니티 + TypeScript 개발 환경에서 아이템 제작
+    - 아이템 제작 템플릿 제작 및 배포
+    - 아이템 사용 관련 이슈 대응
+    - 아이템 네트워크 동기화 관련 이슈 대응
+    
+    [ifland 아이템 성능 최적화]
+    - 아이템 성능 프로파일링 진행 가이드 및 프로파일링 결과 분석
+    (CPU Usage, Memory Usage, Rendering 성능 프로파일링)
+    
+    - 아이템 성능 최적화를 진행, 전반적으로 성능 2배 이상 증가
+
+    [ifland 테스트 자동화]
+    - Appium + Python을 이용한 앱 테스트 자동화 구현
+    - 테스트 자동화를 이용하여 최적의 아이템 배치 환경 테스트
+    - 테스트 자동화를 이용하여 재현이 어려운 이슈 재현 및 해결
+    `
   },
   {
     id: '2',
@@ -27,7 +43,12 @@ export const experiences: Experience[] = [
     startDate: '2020.02',
     endDate: '2020.12',
     company: '(주)아이아라',
-    duty: '게임 엔진 개발',
+    duty: `[Andar 필라테스 앱 서비스 장애 원인 분석 및 해결 방안 제시]
+    - 서비스 장애율 50% 이상 감소
+    - 업무 효율성 50% 이상 증가
+
+    리틀홈런 틴포 GO 콘텐츠 제작
+    `
   },
   {
     id: '4',

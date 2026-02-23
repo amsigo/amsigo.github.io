@@ -3,7 +3,7 @@ import birdshot_icon from '@/assets/icon/birdshot_icon.png'
 import birdshotDescription from '../descriptions/birdshot.md?raw'
 
 export const birdshot: Project = {
-  id: '4',
+  id: '104',
   title: '버드샷',
   shortDescription: '벽돌깨기',
   description: birdshotDescription,

@@ -5,7 +5,7 @@ const menuItems = [
   { path: '/experience', label: '경력' },
   { path: '/projects', label: '프로젝트' },
   { path: '/activities', label: '대외활동' },
-  { path: 'https://velog.io/@amsigo', label: '블로그', isExternal: true },
+  // { path: 'https://velog.io/@amsigo', label: '블로그', isExternal: true },
   { path: 'https://github.com/amsigo', label: '깃허브', isExternal: true },
 ]
 

@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { projects, copyProjects, etcPorjects } from '@/data/projects'
+import PdfSlideViewer from '@/components/PdfSlideViewer'
 
 const allProjects = [...projects, ...copyProjects, ...etcPorjects]
 
@@ -117,9 +118,12 @@ export default function ProjectDetail() {
             ),
             p: ({ children }) => <p style={{ marginBottom: '1rem' }}>{children}</p>,
             img: ({ src, alt }) => {
-              // 이미지 경로 변환
               const imageSrc = transformImageSrc(src || '', project?.id)
-              
+
+              if (imageSrc.endsWith('.pdf')) {
+                return <PdfSlideViewer pdfUrl={imageSrc} />
+              }
+
               return (
                 <img
                   src={imageSrc}

@@ -3,7 +3,7 @@ import shotup_icon from '@/assets/icon/shotup_icon.png'
 import shotupDescription from '../descriptions/shotup.md?raw'
 
 export const shotup: Project = {
-  id: '8',
+  id: '108',
   title: 'ShotUp',
   shortDescription: '아케이드',
   description: shotupDescription,

@@ -3,7 +3,7 @@ import rebirth_icon from '@/assets/icon/rebirth_icon.png'
 import rebirthDescription from '../descriptions/rebirth.md?raw'
 
 export const rebirth: Project = {
-  id: '2',
+  id: '102',
   title: '리버스m',
   shortDescription: 'MMORPG',
   description: rebirthDescription,
