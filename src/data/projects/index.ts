@@ -15,7 +15,7 @@ import { whiteout } from './copy_projects/whiteout'
 import { megicaDefense } from './copy_projects/megicaDefense'
 import { ifland_optimize } from './etc_projects/ifland_optimize'
 import { ifland_auto } from './etc_projects/ifland_auto'
-import { andar } from './etc_projects/andar'
+//import { andar } from './etc_projects/andar'
 
 // 모든 프로젝트를 배열로 export
 export const projects = [
@@ -37,6 +37,6 @@ export const copyProjects = [
 
 export const etcPorjects = [
   ifland_optimize, // 301
-  ifland_auto, // 302
-  andar, // 303
+  ifland_auto // 302
+  //andar, // 303
 ]
